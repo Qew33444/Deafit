@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="8.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evolution of Quantum Mechanics Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question h3 {
+            margin-bottom: 10px;
+        }
+        .question ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .question li {
+            margin: 5px 0;
+        }
+        .correct-answer {
+            color: green;
+            display: none;
+        }
+        .wrong-answer {
+            color: red;
+            display: none;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e8f8f5;
+            border: 1px solid #1abc9c;
+            color: #1abc9c;
+            display: none;
+        }
+        .correct-answers {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            color: #333;
+            display: none;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Evolution of Quantum Mechanics</h1>
+    <p>Quantum mechanics is a branch of physics that describes the behavior of particles at the smallest scales, such as atoms and subatomic particles. The theory emerged in the early 20th century as scientists began to explore phenomena that classical physics could not explain. The evolution of quantum mechanics can be traced through several key milestones.</p>
+    <p>In 1900, Max Planck introduced the concept of quantization, which suggested that energy is not continuous but rather comes in discrete packets called "quanta." This was a revolutionary idea that challenged the prevailing view of continuous energy. Shortly after, in 1905, Albert Einstein explained the photoelectric effect by proposing that light consists of quanta, now known as photons. This work earned him the Nobel Prize in Physics in 1921.</p>
+    <p>The next major development came with Niels Bohr’s model of the atom in 1913. Bohr proposed that electrons orbit the nucleus in specific, quantized orbits and that they emit or absorb energy when transitioning between these orbits. This model successfully explained the spectral lines of hydrogen but could not account for more complex elements.</p>
+    <p>In the mid-1920s, Erwin Schrödinger and Werner Heisenberg made significant contributions with their formulations of quantum mechanics. Schrödinger developed the wave equation, which describes how the quantum state of a system changes over time. Heisenberg introduced the uncertainty principle, which states that certain pairs of physical properties, such as position and momentum, cannot be simultaneously measured with arbitrary precision.</p>
+    <p>Quantum mechanics continued to evolve with the development of quantum field theory and the Standard Model of particle physics. These frameworks describe the interactions between fundamental particles and the forces governing them. Today, quantum mechanics is essential in various fields, including chemistry, material science, and electronics, and continues to drive advancements in technology and theoretical physics.</p>
+
+    <!-- Questions start here -->
+    <div class="question">
+        <h3>1. What does quantum mechanics describe?</h3>
+        <ul>
+            <li><input type="radio" name="q1" value="a"> The behavior of large celestial bodies</li>
+            <li><input type="radio" name="q1" value="b"> The behavior of particles at the smallest scales</li>
+            <li><input type="radio" name="q1" value="c"> The evolution of galaxies</li>
+            <li><input type="radio" name="q1" value="d"> The principles of classical mechanics</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>2. Who introduced the concept of quantization?</h3>
+        <ul>
+            <li><input type="radio" name="q2" value="a"> Albert Einstein</li>
+            <li><input type="radio" name="q2" value="b"> Max Planck</li>
+            <li><input type="radio" name="q2" value="c"> Niels Bohr</li>
+            <li><input type="radio" name="q2" value="d"> Werner Heisenberg</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>3. What did Albert Einstein propose in 1905 to explain the photoelectric effect?</h3>
+        <ul>
+            <li><input type="radio" name="q3" value="a"> The wave theory of light</li>
+            <li><input type="radio" name="q3" value="b"> The concept of photons</li>
+            <li><input type="radio" name="q3" value="c"> The uncertainty principle</li>
+            <li><input type="radio" name="q3" value="d"> The theory of relativity</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>4. What did Niels Bohr’s model of the atom successfully explain?</h3>
+        <ul>
+            <li><input type="radio" name="q4" value="a"> The general theory of relativity</li>
+            <li><input type="radio" name="q4" value="b"> The photoelectric effect</li>
+            <li><input type="radio" name="q4" value="c"> The spectral lines of hydrogen</li>
+            <li><input type="radio" name="q4" value="d"> Quantum entanglement</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>5. What is the significance of Schrödinger’s wave equation?</h3>
+        <ul>
+            <li><input type="radio" name="q5" value="a"> It describes the energy levels of electrons in an atom.</li>
+            <li><input type="radio" name="q5" value="b"> It describes how the quantum state of a system changes over time.</li>
+            <li><input type="radio" name="q5" value="c"> It explains the photoelectric effect.</li>
+            <li><input type="radio" name="q5" value="d"> It introduces the concept of photons.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>6. What does Heisenberg’s uncertainty principle state?</h3>
+        <ul>
+            <li><input type="radio" name="q6" value="a"> Energy is quantized in discrete packets.</li>
+            <li><input type="radio" name="q6" value="b"> Certain pairs of physical properties cannot be measured simultaneously with arbitrary precision.</li>
+            <li><input type="radio" name="q6" value="c"> Light consists of quanta known as photons.</li>
+            <li><input type="radio" name="q6" value="d"> Electrons orbit the nucleus in fixed orbits.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>7. In what time period did Schrödinger and Heisenberg make their significant contributions to quantum mechanics?</h3>
+        <ul>
+            <li><input type="radio" name="q7" value="a"> Early 20th century</li>
+            <li><input type="radio" name="q7" value="b"> Late 19th century</li>
+            <li><input type="radio" name="q7" value="c"> Mid-20th century</li>
+            <li><input type="radio" name="q7" value="d"> Late 18th century</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>8. What are quantum field theory and the Standard Model of particle physics used for?</h3>
+        <ul>
+            <li><input type="radio" name="q8" value="a"> To describe interactions between celestial bodies</li>
+            <li><input type="radio" name="q8" value="b"> To describe interactions between fundamental particles and forces</li>
+            <li><input type="radio" name="q8" value="c"> To explain classical mechanics</li>
+            <li><input type="radio" name="q8" value="d"> To outline the principles of classical chemistry</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>9. How did the development of quantum mechanics impact technology and theoretical physics?</h3>
+        <ul>
+            <li><input type="radio" name="q9" value="a"> It had no significant impact.</li>
+            <li><input type="radio" name="q9" value="b"> It led to advancements in various fields, including electronics and material science.</li>
+            <li><input type="radio" name="q9" value="c"> It limited technological advancements.</li>
+            <li><input type="radio" name="q9" value="d"> It caused a decline in scientific research.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>10. What was the key challenge that quantum mechanics addressed compared to classical physics?</h3>
+        <ul>
+            <li><input type="radio" name="q10" value="a"> The behavior of celestial bodies</li>
+            <li><input type="radio" name="q10" value="b"> The behavior of particles at small scales</li>
+            <li><input type="radio" name="q10" value="c"> The principles of gravitational forces</li>
+            <li><input type="radio" name="q10" value="d"> The continuous nature of energy</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>11. How does quantum mechanics continue to influence modern science?</h3>
+        <ul>
+            <li><input type="radio" name="q11" value="a"> It is no longer relevant to modern science.</li>
+            <li><input type="radio" name="q11" value="b"> It continues to drive advancements in technology and theoretical research.</li>
+            <li><input type="radio" name="q11" value="c"> It has been replaced by classical physics.</li>
+            <li><input type="radio" name="q11" value="d"> It only influences historical studies.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>12. What was one limitation of Bohr’s model of the atom?</h3>
+        <ul>
+            <li><input type="radio" name="q12" value="a"> It could not explain the spectral lines of hydrogen.</li>
+            <li><input type="radio" name="q12" value="b"> It was unable to account for more complex elements.</li>
+            <li><input type="radio" name="q12" value="c"> It was not based on quantization principles.</li>
+            <li><input type="radio" name="q12" value="d"> It was inconsistent with the wave equation.</li>
+        </ul>
+    </div>
+
+    <button onclick="checkAnswers()">Submit Answers</button>
+
+    <div class="result" id="result">
+        <h2>Your Results</h2>
+        <p id="score"></p>
+    </div>
+
+    <div class="correct-answers" id="correct-answers">
+        <h2>Correct Answers</h2>
+        <ul>
+            <li>1. The behavior of particles at the smallest scales</li>
+            <li>2. Max Planck</li>
+            <li>3. The concept of photons</li>
+            <li>4. The spectral lines of hydrogen</li>
+            <li>5. It describes how the quantum state of a system changes over time.</li>
+            <li>6. Certain pairs of physical properties cannot be measured simultaneously with arbitrary precision.</li>
+            <li>7. Mid-20th century</li>
+            <li>8. To describe interactions between fundamental particles and forces</li>
+            <li>9. It led to advancements in various fields, including electronics and material science.</li>
+            <li>10. The behavior of particles at small scales</li>
+            <li>11. It continues to drive advancements in technology and theoretical research.</li>
+            <li>12. It was unable to account for more complex elements</li>
+        </ul>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            var score = 0;
+            var totalQuestions = 12;
+            var correctAnswers = {
+                "q1": "b",
+                "q2": "b",
+                "q3": "b",
+                "q4": "c",
+                "q5": "b",
+                "q6": "b",
+                "q7": "c",
+                "q8": "b",
+                "q9": "b",
+                "q10": "b",
+                "q11": "b",
+                "q12": "b"
+            };
+            
+            for (var question in correctAnswers) {
+                var selectedOption = document.querySelector('input[name="' + question + '"]:checked');
+                if (selectedOption && selectedOption.value === correctAnswers[question]) {
+                    score++;
+                }
+            }
+
+            var resultDiv = document.getElementById('result');
+            var correctAnswersDiv = document.getElementById('correct-answers');
+            var scoreElement = document.getElementById('score');
+            
+            scoreElement.textContent = 'You got ' + score + ' out of ' + totalQuestions + ' correct.';
+            resultDiv.style.display = 'block';
+            correctAnswersDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
